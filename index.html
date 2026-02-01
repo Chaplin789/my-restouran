@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dapur</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Stylesheet.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark main-color">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <a class="navbar-brand me-auto" href="#">DapurYaz</a>
+      <ul class="navbar-nav">
+        <li class="nav-item me-5">
+          <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i>Home</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#"><i class="bi bi-playstation"></i>Produk</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#"><i class="bi bi-scissors"></i>Promo</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" href="#"><i class="bi bi-telephone"></i>Kontak</a>
+        </li>
+        <li class="nav-item me-5">
+          <a class="nav-link" tabindex="-1" aria-disabled="true"><i class="bi bi-cart"></i>Keranjang</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid banner d-flex align-items-center">
+  <div class="container">
+       <h1 class="text-light text-center display-5 mb-1">Selamat Datang di DapurYaz</h1>
+       <h2 class="text-light text-center display-7 mb-1">Monsieur, que désirez-vous manger ?</h2>
+        <div class="input-group">
+          <select class="form-select" id="inputGroupSelect04" >
+           <option selected>food</option>
+           <option value="1">Spaghetti</option>
+           <option value="2">Baguette</option>
+           <option value="3">Croisant</option>
+          </select>
+          <button class="btn btn-lg btn-outline-warning text-light" type="button">Cari</button>
+       </div>
+  </div>
+</div>
+<div class="container-fluid py-5">
+  <div class="container">
+    <h2 class="text-center">promo this week</h2>
+
+    <div class="row mt-5 justify-content-center g-4">
+
+      <!-- Card 1 -->
+      <div class="col-12 col-md-4 hovered-card">
+        <div class="card h-100">
+          <img src="Spaghetti.jpeg" class="card-img-top" alt="Spaghetti">
+          <div class="card-body">
+            <h5 class="card-title">
+             Special offer: Enjoy delicious spaghetti with spicy sauce. 
+            </h5>
+            <p class="card-text">
+             enjoy spaghetti with a luxurious taste
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-md-4 hovered-card">
+        <div class="card h-100">
+          <img src="Baguette.jpeg" class="card-img-top" alt="Baguette">
+          <div class="card-body">
+            <h5 class="card-title">
+              Hungry? It's time to enjoy a baguette at a more economical price.
+            </h5>
+            <p class="card-text">
+              Long baguette makes the heart happy
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-md-4 hovered-card">
+        <div class="card h-100">
+          <img src="Croissant.jpeg" class="card-img-top" alt="Croissant">
+          <div class="card-body">
+            <h5 class="card-title">
+              Warm and soft layered croissants will make your morning more special.
+            </h5>
+            <p class="card-text">
+              feel the sensation of Paris in every bite
+            </p>
+            <a href="#" class="btn btn-primary">Buy</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script src="bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
