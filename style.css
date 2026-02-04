@@ -1,0 +1,22 @@
+.banner{
+    min-height: 100vh;
+    background-image:
+        linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+        url("steak.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon-service{
+    width: 90px;
+    height: 90px;
+    border: solid #fff 2px;
+    border-radius: 50%;
+    color: #ffff;
+}
+
+.background-service{
+    height: auto;
+    background-color: rgb(109, 109, 109);
+}
